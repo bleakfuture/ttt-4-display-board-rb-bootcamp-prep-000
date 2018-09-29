@@ -137,7 +137,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints an entire board full of Xs' do
-      board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+      board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
